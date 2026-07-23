@@ -6,6 +6,14 @@
   "publisher": "17715147229",
   "license": "MIT",
   "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelWife/wms-i18n-hover.git"
+  },
+  "homepage": "https://github.com/angelWife/wms-i18n-hover#readme",
+  "bugs": {
+    "url": "https://github.com/angelWife/wms-i18n-hover/issues"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },

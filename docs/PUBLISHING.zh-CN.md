@@ -5,7 +5,8 @@
 1. 登录 [Visual Studio Marketplace 管理页](https://marketplace.visualstudio.com/manage)。
 2. 创建 Publisher，记下唯一的 Publisher ID。
 3. 确认 `package.json` 的 `publisher` 与你的 Publisher ID `17715147229` 一致。
-4. 检查扩展的 `name` 和 `displayName`。Marketplace 要求两者均不能与已有扩展冲突。
+4. 确认源码仓库为 `https://github.com/angelWife/wms-i18n-hover.git`。
+5. 检查扩展的 `name` 和 `displayName`。Marketplace 要求两者均不能与已有扩展冲突。
 
 ## 先本地验证
 

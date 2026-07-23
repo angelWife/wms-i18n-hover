@@ -61,8 +61,8 @@ code --install-extension wukong-i18n-hover-0.1.0.vsix
 
 首版只解析静态字符串。变量、字符串拼接和含 `${...}` 插值的模板字符串不会显示悬停提示。
 
-Marketplace 发布步骤见扩展源码内的 `docs/PUBLISHING.zh-CN.md`。
+Marketplace 发布步骤见 [docs/PUBLISHING.zh-CN.md](docs/PUBLISHING.zh-CN.md)。
 
 ## License
 
-MIT
+[MIT](LICENSE)
