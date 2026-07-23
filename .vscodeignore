@@ -1,0 +1,8 @@
+.vscode/**
+test/**
+images/icon.svg
+node_modules/**
+package-lock.json
+*.vsix
+docs/superpowers/**
+

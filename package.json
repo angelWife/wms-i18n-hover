@@ -1,0 +1,64 @@
+{
+  "name": "wukong-i18n-hover",
+  "displayName": "Wukong i18n Hover",
+  "description": "Hover over $.i18n.prop keys to preview translations from workspace language files.",
+  "version": "0.1.0",
+  "publisher": "17715147229",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "i18n",
+    "hover",
+    "jquery",
+    "properties",
+    "translation"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:vue",
+    "onLanguage:html",
+    "onCommand:wukongI18nHover.refresh"
+  ],
+  "main": "./src/extension.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/i18n.js && node --check src/extension.js",
+    "package": "vsce package --no-dependencies --out wukong-i18n-hover-0.1.0.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.2"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "wukongI18nHover.refresh",
+        "title": "Wukong i18n Hover: 刷新语言包缓存"
+      }
+    ],
+    "configuration": {
+      "title": "Wukong i18n Hover",
+      "properties": {
+        "wukongI18nHover.languageFiles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "src/language/message_zh_CN.txt"
+          ],
+          "description": "相对于当前文件所属工作区的语言包路径。可配置多个文件同时展示。",
+          "scope": "resource"
+        }
+      }
+    }
+  }
+}
