@@ -2,7 +2,7 @@
   "name": "wukong-i18n-hover",
   "displayName": "Wukong i18n Hover",
   "description": "Hover over $.i18n.prop keys to preview translations from workspace language files.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "17715147229",
   "license": "MIT",
   "icon": "images/icon.png",
@@ -40,7 +40,7 @@
   "scripts": {
     "test": "node --test test/*.test.js",
     "check": "node --check src/i18n.js && node --check src/extension.js",
-    "package": "vsce package --no-dependencies --out wukong-i18n-hover-0.1.0.vsix"
+    "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.6.2"

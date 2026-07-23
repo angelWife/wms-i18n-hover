@@ -52,7 +52,7 @@ const html = $.i18n.prop_origin('markUploadSubmitSuccess')
 ```bash
 npm install
 npm run package
-code --install-extension wukong-i18n-hover-0.1.0.vsix
+code --install-extension wukong-i18n-hover-0.1.1.vsix
 ```
 
 也可以在 VS Code 扩展视图右上角选择 **Install from VSIX...**。

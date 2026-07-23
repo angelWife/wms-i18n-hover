@@ -15,7 +15,7 @@ npm install
 npm test
 npm run check
 npm run package
-code --install-extension wukong-i18n-hover-0.1.0.vsix --force
+code --install-extension wukong-i18n-hover-0.1.1.vsix --force
 ```
 
 打开一个包含 `$.i18n.prop('key')` 的项目，确认悬停结果、语言包路径和行号正确。
@@ -26,7 +26,7 @@ code --install-extension wukong-i18n-hover-0.1.0.vsix --force
 
 1. 在 Marketplace 管理页进入你的 Publisher。
 2. 选择 **New extension** → **Visual Studio Code**。
-3. 上传 `wukong-i18n-hover-0.1.0.vsix`。
+3. 上传 `wukong-i18n-hover-0.1.1.vsix`。
 4. 检查商店详情、图标和 README，确认后发布。
 
 这种方式不需要把发布凭证写入本地文件或项目。
